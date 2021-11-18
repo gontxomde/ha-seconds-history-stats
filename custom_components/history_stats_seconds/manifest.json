@@ -1,7 +1,7 @@
 {
   "domain": "history_stats_second",
-  "name": "History Stats",
-  "documentation": "https://www.home-assistant.io/integrations/history_stats",
+  "name": "History Stats by Second",
+  "documentation": "https://github.com/gontxomde/ha-seconds-history-stats",
   "dependencies": ["recorder"],
   "codeowners": [],
   "iot_class": "local_polling"
