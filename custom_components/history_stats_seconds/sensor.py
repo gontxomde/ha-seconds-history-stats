@@ -46,7 +46,6 @@ UNITS = {
 ICON = "mdi:chart-line"
 
 ATTR_VALUE = "value"
-a = 1/0
 
 def exactly_two_period_keys(conf):
     """Ensure exactly 2 of CONF_PERIOD_KEYS are provided."""
