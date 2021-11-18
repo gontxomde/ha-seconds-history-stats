@@ -1,5 +1,5 @@
 {
-  "domain": "history_stats",
+  "domain": "history_stats_seconds",
   "name": "History Stats",
   "documentation": "https://www.home-assistant.io/integrations/history_stats",
   "dependencies": ["recorder"],
