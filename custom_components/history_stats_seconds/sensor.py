@@ -14,7 +14,6 @@ from homeassistant.const import (
     CONF_TYPE,
     EVENT_HOMEASSISTANT_START,
     PERCENTAGE,
-    TIME_SECONDS,
 )
 from homeassistant.core import CoreState, callback
 from homeassistant.exceptions import TemplateError
@@ -39,7 +38,7 @@ CONF_TYPE_KEYS = [CONF_TYPE_TIME, CONF_TYPE_RATIO, CONF_TYPE_COUNT]
 
 DEFAULT_NAME = "unnamed statistics"
 UNITS = {
-    CONF_TYPE_TIME: TIME_SECONDS,
+    CONF_TYPE_TIME: "",
     CONF_TYPE_RATIO: PERCENTAGE,
     CONF_TYPE_COUNT: "",
 }
