@@ -332,10 +332,10 @@ class HistoryStatsSecondHelper:
         hours, seconds = divmod(seconds, 3600)
         minutes, seconds = divmod(seconds, 60)
         if days > 0:
-            return "%d %d:%d" % (days, hours, minutes)
+            return "%d %2d:%2d" % (days, hours, minutes)
         if hours > 0:
-            return "%d:%d:%d" % (hours, minutes, seconds)
-        return "%d:%d" % (minutes, seconds)
+            return "%2d:%2d:%2d" % (hours, minutes, seconds)
+        return "%2d:%2d" % (minutes, seconds)
 
     @staticmethod
     def pretty_ratio(value, period):
